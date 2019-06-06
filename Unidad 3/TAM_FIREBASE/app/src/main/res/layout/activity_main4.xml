@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAC31A"
+    tools:context=".Main4Activity">
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/idd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="15"
+        android:hint="ID Conductor" />
+    <EditText
+        android:id="@+id/lic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="15"
+        android:hint="Numero de licencia (5 digitos)" />
+    <EditText
+        android:id="@+id/monto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="15"
+        android:hint="Monto" />
+    <EditText
+        android:id="@+id/puntos1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="15"
+        android:hint="Numero de puntos (Del 1 al 10)" />
+    <EditText
+        android:id="@+id/cel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="15"
+        android:hint="Numero de Celular" />
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="15"
+        android:hint="Email" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/eliminar"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
+            android:text="ELIMINAR" />
+        <Button
+            android:id="@+id/cancelar"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="REGRESAR" />
+    </LinearLayout>
+
+
+</LinearLayout>

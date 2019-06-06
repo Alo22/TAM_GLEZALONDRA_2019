@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    tools:context=".Activity_consultar_usuario">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/documentoId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:layout_weight="0.93" />
+
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Buscar" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/campoNombreConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+
+    <EditText
+        android:id="@+id/campoNocontrolconsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nocontrol"/>
+
+    <EditText
+        android:id="@+id/campoCelconsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Celular"/>
+
+    <EditText
+        android:id="@+id/campoEmailconsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"/>
+    <EditText
+        android:id="@+id/campoCarreraconsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Carrera"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:layout_weight="0.5" />
+
+    </LinearLayout>
+
+</LinearLayout>

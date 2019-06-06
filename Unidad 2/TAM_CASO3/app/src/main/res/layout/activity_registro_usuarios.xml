@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDD16C"
+    android:orientation="vertical"
+    tools:context=".activity_registro_usuarios">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="REGISTRO DEL ALUMNO"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/campoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id"/>
+
+    <EditText
+        android:id="@+id/campoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombre"/>
+
+    <EditText
+        android:id="@+id/campoNocontrol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nocontrol"/>
+    <EditText
+        android:id="@+id/campoCel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="celular"/>
+
+    <EditText
+        android:id="@+id/campoEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e-mail"/>
+
+    <EditText
+        android:id="@+id/campoCarrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="carrera"/>
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ECA73D"
+        android:text="Registrar Alumno"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>

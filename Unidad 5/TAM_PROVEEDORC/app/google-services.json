@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "61747460705",
+    "firebase_url": "https://llamadas-6b6a4.firebaseio.com",
+    "project_id": "llamadas-6b6a4",
+    "storage_bucket": "llamadas-6b6a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61747460705:android:4cd99570cb131555",
+        "android_client_info": {
+          "package_name": "com.example.tam_55_proveedorcontenidos_alondraglez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61747460705-nbp04gsq1jsbk788kkkor8g516k2190c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tam_55_proveedorcontenidos_alondraglez",
+            "certificate_hash": "0de5b948a93e629522563a59aabb5249bd15bfa7"
+          }
+        },
+        {
+          "client_id": "61747460705-2m02g1r8nc5a46vloofbucfsighu8fns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvcrhnf1JT9nYtuq2GeDTyj91RonhoHgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61747460705-2m02g1r8nc5a46vloofbucfsighu8fns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

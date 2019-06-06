@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gps"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/mensaje_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_marginTop="60dp"
+            android:text="Texto1" />
+
+        <TextView
+            android:id="@+id/mensaje_id2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Texto2"
+           />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#3F51B5"
+            android:text="Usuario"
+            android:id="@+id/id"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#3F51B5"
+            android:text="Nombre"
+            android:id="@+id/nombre"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#3F51B5"
+            android:text="Domicilio"
+            android:id="@+id/domicilio"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#3F51B5"
+            android:text="Telefono"
+            android:id="@+id/tel"
+            android:textSize="20dp"/>
+        <View
+
+            android:layout_width="fill_parent"
+            android:layout_height="6dp"
+            android:background="@android:color/black"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
